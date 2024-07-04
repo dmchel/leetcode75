@@ -2,7 +2,7 @@ package com.dleschev.matrix;
 
 public class FindBall {
 
-    public static void main() {
+    public static void main(String[] args) {
         
     }
 
