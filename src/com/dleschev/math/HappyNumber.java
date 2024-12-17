@@ -28,7 +28,7 @@ public class HappyNumber {
     public static int calcSumOfSquares(int number) {
         int sum = 0;
         while (number != 0) {
-            sum += Math.pow(number % 10, 2);
+            sum += (int) Math.pow(number % 10, 2);
             number /= 10;
         }
         return sum;
