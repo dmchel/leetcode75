@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MergeSort {
 
-    public static void m    ain(String[] args) {
+    public static void main(String[] args) {
         int[] input = { -1, -5, 6, 10, 3, 99, 5, 2, 4, 0, -5, -1000, 98 };
         int[] inputCopy = Arrays.copyOf(input, input.length);
         Arrays.sort(inputCopy);
